@@ -24,6 +24,10 @@ struct DetailInfo: View {
                 .ignoresSafeArea()
             ScrollView {
                 VStack{
+                    HStack(spacing: 0) {
+                        Text("ocean").font(.custom("ronda-bold", size: 50)).foregroundColor(.blue)
+                        Text("master").font(.custom("ronda-bold", size: 50))
+                    }
                     Map(coordinateRegion: $mapRegion).frame(width: 450, height: 300)
                     Text(nombre)
                     Text("Flora de la región:").font(.largeTitle)
@@ -39,7 +43,6 @@ struct DetailInfo: View {
                             }
                         }
                     }
-                    Spacer()
                 }
             }
         }

@@ -54,6 +54,9 @@
 		3F0A897729F6F53F006B8485 /* Vida_submarinaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vida_submarinaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3F0A898429F73367006B8485 /* listaGeneral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listaGeneral.swift; sourceTree = "<group>"; };
 		3F73885B29F87EB600EB5065 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		3F73885D29F8806200EB5065 /* ronda bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ronda bold.ttf"; sourceTree = "<group>"; };
+		3F73885E29F880AC00EB5065 /* Vida-submarina-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Vida-submarina-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3F73885F29F8812800EB5065 /* ronda-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ronda-bold.ttf"; sourceTree = "<group>"; };
 		3F7E225E29F8655900C82429 /* helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = helper.swift; path = ../../../../Downloads/helper.swift; sourceTree = "<group>"; };
 		3F7E226029F8672600C82429 /* DetailInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,12 +109,15 @@
 		3F0A895429F6F53E006B8485 /* Vida submarina */ = {
 			isa = PBXGroup;
 			children = (
+				3F73885E29F880AC00EB5065 /* Vida-submarina-Info.plist */,
 				3F0A895529F6F53E006B8485 /* Vida_submarinaApp.swift */,
 				3F0A895729F6F53E006B8485 /* playasView.swift */,
 				3F0A898429F73367006B8485 /* listaGeneral.swift */,
 				3F73885B29F87EB600EB5065 /* SplashScreen.swift */,
 				3F7E226029F8672600C82429 /* DetailInfo.swift */,
 				3F7E225E29F8655900C82429 /* helper.swift */,
+				3F73885D29F8806200EB5065 /* ronda bold.ttf */,
+				3F73885F29F8812800EB5065 /* ronda-bold.ttf */,
 				3F0A895929F6F53F006B8485 /* Assets.xcassets */,
 				3F0A895E29F6F53F006B8485 /* Persistence.swift */,
 				3F0A896029F6F53F006B8485 /* Vida_submarina.xcdatamodeld */,
@@ -443,6 +449,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Vida submarina/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vida-submarina-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -471,6 +478,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Vida submarina/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vida-submarina-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

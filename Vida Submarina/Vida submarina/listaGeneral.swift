@@ -47,8 +47,8 @@ struct ContentView: View{
                     .ignoresSafeArea()
                 VStack{
                     HStack(spacing: 0) {
-                        Text("ocean").font(.custom("", size: 50))
-                        Text("master").font(.custom("", size: 50))
+                        Text("ocean").font(.custom("ronda-bold", size: 50)).foregroundColor(.blue)
+                        Text("master").font(.custom("ronda-bold", size: 50))
                     }
                     HStack{
                         Text("Busquemos").font(.custom("", size: 20))
