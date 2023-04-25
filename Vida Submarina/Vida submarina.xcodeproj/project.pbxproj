@@ -17,6 +17,7 @@
 		3F0A897629F6F53F006B8485 /* Vida_submarinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A897529F6F53F006B8485 /* Vida_submarinaUITests.swift */; };
 		3F0A897829F6F53F006B8485 /* Vida_submarinaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A897729F6F53F006B8485 /* Vida_submarinaUITestsLaunchTests.swift */; };
 		3F0A898529F73367006B8485 /* listaGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A898429F73367006B8485 /* listaGeneral.swift */; };
+		3F73885C29F87EB600EB5065 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73885B29F87EB600EB5065 /* SplashScreen.swift */; };
 		3F7E225F29F8655900C82429 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E225E29F8655900C82429 /* helper.swift */; };
 		3F7E226129F8672600C82429 /* DetailInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E226029F8672600C82429 /* DetailInfo.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		3F0A897529F6F53F006B8485 /* Vida_submarinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vida_submarinaUITests.swift; sourceTree = "<group>"; };
 		3F0A897729F6F53F006B8485 /* Vida_submarinaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vida_submarinaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3F0A898429F73367006B8485 /* listaGeneral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listaGeneral.swift; sourceTree = "<group>"; };
+		3F73885B29F87EB600EB5065 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		3F7E225E29F8655900C82429 /* helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = helper.swift; path = ../../../../Downloads/helper.swift; sourceTree = "<group>"; };
 		3F7E226029F8672600C82429 /* DetailInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,6 +109,7 @@
 				3F0A895529F6F53E006B8485 /* Vida_submarinaApp.swift */,
 				3F0A895729F6F53E006B8485 /* playasView.swift */,
 				3F0A898429F73367006B8485 /* listaGeneral.swift */,
+				3F73885B29F87EB600EB5065 /* SplashScreen.swift */,
 				3F7E226029F8672600C82429 /* DetailInfo.swift */,
 				3F7E225E29F8655900C82429 /* helper.swift */,
 				3F0A895929F6F53F006B8485 /* Assets.xcassets */,
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F73885C29F87EB600EB5065 /* SplashScreen.swift in Sources */,
 				3F0A896229F6F53F006B8485 /* Vida_submarina.xcdatamodeld in Sources */,
 				3F0A898529F73367006B8485 /* listaGeneral.swift in Sources */,
 				3F0A895F29F6F53F006B8485 /* Persistence.swift in Sources */,

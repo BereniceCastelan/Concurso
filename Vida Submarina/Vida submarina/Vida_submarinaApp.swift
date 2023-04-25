@@ -13,7 +13,7 @@ struct Vida_submarinaApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
         }
     }
 }
