@@ -80,7 +80,7 @@ struct ContentView: View{
                         }
                     } else {
                         ScrollView{
-                            Text("hfbdvucnvisdfdskjfhdsakjfhdskjfbsdifndsiucnsdicvbsdivunsdviubsdnaivcudsbnaciudsnavcoisdabnvcakwejbnckjncvawkeuvbcnwkauvn ewakucnwekaucbwekucb weiuwefiuhi cuwai cbc wiuch wioucnweicu wiuae cniw cunwiicnweiuncwiu nb iun iuw nciowi ncoi ocw iocwniuwcn iu nawiu cwiau c")
+                            Text("La aplicación Oceanmaster fue realizada con el propósito de brindar un servicio al público, acompañado de un deseo de compartir conocimiento sobre el cuidado ecoglógico de las playas y mares, y la preservación de las especies endémicas. Deseamos que esta aplicación ayude un poquito a la gente a aprender y a concientizarse sobre una de las mayores problemáticas que aquejan a nuestro querido planetita.  ")
                         }
                     }
                     Spacer()
